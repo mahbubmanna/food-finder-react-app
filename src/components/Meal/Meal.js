@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 const Meal = (props) => {
-    const { idMeal, strMeal, strInstructions, strMealThumb, strYoutube } = props.meal;
+    const { idMeal, strMeal, strInstructions, strMealThumb } = props.meal;
     const history = useHistory();
 
     const url = `meal/${idMeal}`
